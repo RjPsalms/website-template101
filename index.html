@@ -14,18 +14,16 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
 
-        <script src="index.js"></script>
+        <script src="index.js" type="text/javascript"></script>
 
         <link rel="stylesheet" href="styles.css">
 
         <!-- FOR FOOTER -->
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> -->
         <script defer
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-        <link rel="stylesheet"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
+        
         <title>Mr. Techguy Portfolio</title>
     </head>
     <body>
@@ -66,237 +64,251 @@
         </div>
         <br>
 
-        <div class="container my-5 hero">
-            <div class="card mb-3 p-3 bg-transparent border-0">
-                <div class="row g-0 flex-row-reverse align-items-center">
-                    <div class="col-md-4">
-                        <img src="media/techguy.png" class="img-fluid"
-                            alt="mr. techguy">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body text-center">
-                            <h1 class="card-title">My Portfolio</h1>
-                            <h4 class="card-text">Lorem ipsum dolor, sit amet
-                                consectetur adipisicing elit. Rem dolorum
-                                inventore odit illum veniam facere!</h4>
-                            <p class="card-text"><small
-                                    class="text-body-secondary">Technician |
-                                    Developer | Nerd</small></p>
-                            <button type="button"
-                                class="btn btn-outline-info px-3 mx-2 my-2">My
-                                Projects</button>
-                            <button type="button"
-                                class="btn btn-outline-primary px-3">My
-                                Story</button>
+        <main id="main">
+            <div class="container my-5 hero">
+                <div class="card mb-3 p-3 bg-transparent border-0">
+                    <div class="row g-0 flex-row-reverse align-items-center">
+                        <div class="col-sm-5 col-lg-4">
+                            <img src="media/techguy.png" class="img-fluid"
+                                alt="mr. techguy">
+                        </div>
+                        <div class="col-sm-7 col-lg-8">
+                            <div class="card-body text-center">
+                                <h1 class="card-title">My Portfolio</h1>
+                                <h4 class="card-text">Lorem ipsum dolor, sit amet
+                                    consectetur adipisicing elit. Rem dolorum
+                                    inventore odit illum veniam facere!</h4>
+                                <p class="card-text"><small
+                                        class="text-body-secondary">Technician |
+                                        Developer | Nerd</small></p>
+                                <button type="button" class="btn btn-outline-info px-3 mx-2 my-2"><a href="#projects">My Projects</a></button>
+                                <button type="button" class="btn btn-outline-primary px-3"><a href="story.html">My Story</a></button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <br class="my-5">
+    
+            <section id="companies" class="text-center mt-5 sec-titles">
+                <strong><h1 class="my-5">Past companies</h1></strong>
+                <div class="container">
+                    <div
+                        class="row my-5 row-cols-2 row-cols-md-3 row-cols-lg-5 flex-wrap justify-content-center">
+    
+                        <div class="col">
+                            <img src="media/1.png" alt="company1" class="img-fluid"
+                                style="min-width: 150px; max-width: 200px;">
+                        </div>
+                        <div class="col">
+                            <img src="media/2.png" alt="company2" class="img-fluid"
+                                style="min-width: 150px; max-width: 200px;">
+                        </div>
+                        <div class="col">
+                            <img src="media/3.png" alt="company3" class="img-fluid"
+                                style="min-width: 150px; max-width: 200px;">
+                        </div>
+                        <div class="col">
+                            <img src="media/4.png" alt="company4" class="img-fluid"
+                                style="min-width: 130px; max-width: 170px;">
+                        </div>
+                        <div class="col">
+                            <img src="media/5.png" alt="company5" class="img-fluid"
+                                style="min-width: 150px; max-width: 200px;">
+    
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br class="my-5">
+    
+            <section id="experience" class="sec-titles">
+                <div class="container">
+                    <strong><h1 class="my-5 text-center">Work Experience</h1></strong>
+                    <div class="gallery text-center">
+                        <div class="row row-cols-2 row-cols-lg-4">
+    
+                            <div class="gallery-panel">
+                                <div class="card">
+                                    <img src="media/techwork (1).jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="title">Technician</h5>
+                                        <hr>
+                                        <p class="bg-tertiary">Good Company</p>
+                                        <a href="#"
+                                            class="btn btn-outline-primary btn-sm">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col gallery-panel">
+                                <div class="card">
+                                    <img src="media/techwork (2).jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="title">Assistant</h5>
+                                        <hr>
+                                        <p class="bg-tertiary">Brand Super</p>
+                                        <a href="#"
+                                            class="btn btn-outline-primary btn-sm">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col gallery-panel">
+                                <div class="card">
+                                    <img src="media/techwork (3).jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="title">Developer</h5>
+                                        <hr>
+                                        <p class="bg-tertiary">Rock On</p>
+                                        <a href="#"
+                                            class="btn btn-outline-primary btn-sm">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col gallery-panel">
+                                <div class="card">
+                                    <img src="media/techwork (4).jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="title">IT Support</h5>
+                                        <hr>
+                                        <p class="bg-tertiary">Wonderlust</p>
+                                        <a href="#"
+                                            class="btn btn-outline-primary btn-sm">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br class="my-5">
+    
+            <section id="projects">
+                <div class="container text-center">
+                    <strong><h1 class="text-center my-5">Projects
+                            Gallery</h1></strong>
+                    <div class="card mb-5 border-0">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="media/minim (1).jpg"
+                                    class="img-fluid rounded-3 shadow-lg" alt="...">
+                            </div>
+                            <div class="col-md-7 d-flex  align-items-center">
+                                <div class="card-body mx-auto p-5">
+                                    <h5 class="card-title">Sample Project</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet
+                                        consectetur adipisicing elit. Consequuntur
+                                        molestiae est quam doloribus cum officiis
+                                        earum, natus facilis eius mollitia a,
+                                        praesentium illum id magnam. Dolor quas
+                                        obcaecati repellat pariatur.</p>
+                                    <p class="card-text"><small
+                                            class="text-body-secondary">January 01, 1955</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <br class="my-5">
+    
+                    <div class="card mb-5 border-0">
+                        <div class="row g-0 flex-row-reverse">
+                            <div class="col-md-5">
+                                <img src="media/minim (4).jpg"
+                                    class="img-fluid rounded-3 shadow-lg" alt="...">
+                            </div>
+                            <div class="col-md-7 d-flex  align-items-center">
+                                <div class="card-body mx-auto  p-5">
+                                    <h5 class="card-title">Sample Project</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet
+                                        consectetur adipisicing elit. Consequuntur
+                                        molestiae est quam doloribus cum officiis
+                                        earum, natus facilis eius mollitia a,
+                                        praesentium illum id magnam. Dolor quas
+                                        obcaecati repellat pariatur.</p>
+                                    <p class="card-text"><small
+                                            class="text-body-secondary">January 01, 1955</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <br class="my-5">
+    
+                    <div class="card mb-5 border-0">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="media/minim (2).jpg"
+                                    class="img-fluid rounded-3 shadow-lg" alt="...">
+                            </div>
+                            <div class="col-md-7 d-flex  align-items-center">
+                                <div class="card-body mx-auto  p-5">
+                                    <h5 class="card-title">Sample Project</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet
+                                        consectetur adipisicing elit. Consequuntur
+                                        molestiae est quam doloribus cum officiis
+                                        earum, natus facilis eius mollitia a,
+                                        praesentium illum id magnam. Dolor quas
+                                        obcaecati repellat pariatur.</p>
+                                    <p class="card-text"><small
+                                            class="text-body-secondary">January 01, 1955</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <br class="my-5">
+    
+                    <div class="card mb-5 border-0">
+                        <div class="row g-0  flex-row-reverse">
+                            <div class="col-md-5">
+                                <img src="media/minim (3).jpg"
+                                    class="img-fluid rounded-3 shadow-lg" alt="...">
+                            </div>
+                            <div class="col-md-7 d-flex  align-items-center">
+                                <div class="card-body mx-auto  p-5">
+                                    <h5 class="card-title">Sample Project</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet
+                                        consectetur adipisicing elit. Consequuntur
+                                        molestiae est quam doloribus cum officiis
+                                        earum, natus facilis eius mollitia a,
+                                        praesentium illum id magnam. Dolor quas
+                                        obcaecati repellat pariatur.</p>
+                                    <p class="card-text"><small
+                                            class="text-body-secondary">January 01, 1955</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <br class="my-5">
+    
+                </div>
+            </section>
+        </main>
+
+
+        <div class="container p-5" id="story" style="display: none;">
+            <div class="card mb-3">
+                <img src="media/techwork (1).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sample Project</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+                <img src="media/techwork (2).jpg" class="card-img-bottom" alt="...">
+              </div>
         </div>
-        <br class="my-5">
-
-        <section id="companies" class="text-center mt-5 sec-titles">
-            <strong><h1 class="my-5">Past companies:</h1></strong>
-            <div class="container">
-                <div
-                    class="row my-5 row-cols-2 row-cols-md-3 row-cols-lg-5 flex-wrap justify-content-center">
-
-                    <div class="col">
-                        <img src="media/1.png" alt="company1" class="img-fluid"
-                            style="min-width: 150px; max-width: 200px;">
-                    </div>
-                    <div class="col">
-                        <img src="media/2.png" alt="company2" class="img-fluid"
-                            style="min-width: 150px; max-width: 200px;">
-                    </div>
-                    <div class="col">
-                        <img src="media/3.png" alt="company3" class="img-fluid"
-                            style="min-width: 150px; max-width: 200px;">
-                    </div>
-                    <div class="col">
-                        <img src="media/4.png" alt="company4" class="img-fluid"
-                            style="min-width: 130px; max-width: 170px;">
-                    </div>
-                    <div class="col">
-                        <img src="media/5.png" alt="company5" class="img-fluid"
-                            style="min-width: 150px; max-width: 200px;">
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <br class="my-5">
-
-        <section id="experience" class="sec-titles">
-            <div class="container">
-                <strong><h1 class="my-5 text-center">Work Experience:</h1></strong>
-                <div class="gallery">
-                    <div class="row text-center">
-
-                        <div class="gallery-panel">
-                            <div class="card">
-                                <img src="media/techwork (1).jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="title">Technician</h5>
-                                    <hr>
-                                    <p class="bg-tertiary">Good Company</p>
-                                    <a href="#"
-                                        class="btn btn-outline-primary btn-sm">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col gallery-panel">
-                            <div class="card">
-                                <img src="media/techwork (2).jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="title">Assistant</h5>
-                                    <hr>
-                                    <p class="bg-tertiary">Brand Super</p>
-                                    <a href="#"
-                                        class="btn btn-outline-primary btn-sm">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col gallery-panel">
-                            <div class="card">
-                                <img src="media/techwork (3).jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="title">Developer</h5>
-                                    <hr>
-                                    <p class="bg-tertiary">Rock On</p>
-                                    <a href="#"
-                                        class="btn btn-outline-primary btn-sm">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col gallery-panel">
-                            <div class="card">
-                                <img src="media/techwork (4).jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="title">IT Support</h5>
-                                    <hr>
-                                    <p class="bg-tertiary">Wonderlust</p>
-                                    <a href="#"
-                                        class="btn btn-outline-primary btn-sm">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <br class="my-5">
-
-        <section id="projects">
-            <div class="container text-center">
-                <strong><h1 class="text-center my-5">Projects
-                        Gallery</h1></strong>
-                <div class="card mb-5 border-0">
-                    <div class="row g-0">
-                        <div class="col-md-5">
-                            <img src="media/minim (1).jpg"
-                                class="img-fluid rounded-3 shadow-lg" alt="...">
-                        </div>
-                        <div class="col-md-7 d-flex  align-items-center">
-                            <div class="card-body mx-auto p-5">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet
-                                    consectetur adipisicing elit. Consequuntur
-                                    molestiae est quam doloribus cum officiis
-                                    earum, natus facilis eius mollitia a,
-                                    praesentium illum id magnam. Dolor quas
-                                    obcaecati repellat pariatur.</p>
-                                <p class="card-text"><small
-                                        class="text-body-secondary">Last updated
-                                        3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <br class="my-5">
-
-                <div class="card mb-5 border-0">
-                    <div class="row g-0 flex-row-reverse">
-                        <div class="col-md-5">
-                            <img src="media/minim (4).jpg"
-                                class="img-fluid rounded-3 shadow-lg" alt="...">
-                        </div>
-                        <div class="col-md-7 d-flex  align-items-center">
-                            <div class="card-body mx-auto  p-5">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet
-                                    consectetur adipisicing elit. Consequuntur
-                                    molestiae est quam doloribus cum officiis
-                                    earum, natus facilis eius mollitia a,
-                                    praesentium illum id magnam. Dolor quas
-                                    obcaecati repellat pariatur.</p>
-                                <p class="card-text"><small
-                                        class="text-body-secondary">Last updated
-                                        3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <br class="my-5">
-
-                <div class="card mb-5 border-0">
-                    <div class="row g-0">
-                        <div class="col-md-5">
-                            <img src="media/minim (2).jpg"
-                                class="img-fluid rounded-3 shadow-lg" alt="...">
-                        </div>
-                        <div class="col-md-7 d-flex  align-items-center">
-                            <div class="card-body mx-auto  p-5">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet
-                                    consectetur adipisicing elit. Consequuntur
-                                    molestiae est quam doloribus cum officiis
-                                    earum, natus facilis eius mollitia a,
-                                    praesentium illum id magnam. Dolor quas
-                                    obcaecati repellat pariatur.</p>
-                                <p class="card-text"><small
-                                        class="text-body-secondary">Last updated
-                                        3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <br class="my-5">
-
-                <div class="card mb-5 border-0">
-                    <div class="row g-0  flex-row-reverse">
-                        <div class="col-md-5">
-                            <img src="media/minim (3).jpg"
-                                class="img-fluid rounded-3 shadow-lg" alt="...">
-                        </div>
-                        <div class="col-md-7 d-flex  align-items-center">
-                            <div class="card-body mx-auto  p-5">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet
-                                    consectetur adipisicing elit. Consequuntur
-                                    molestiae est quam doloribus cum officiis
-                                    earum, natus facilis eius mollitia a,
-                                    praesentium illum id magnam. Dolor quas
-                                    obcaecati repellat pariatur.</p>
-                                <p class="card-text"><small
-                                        class="text-body-secondary">Last updated
-                                        3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <br class="my-5">
-
-            </div>
-        </section>
 
         <section id="footer">
             <!-- Site footer -->
