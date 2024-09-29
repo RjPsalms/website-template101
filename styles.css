@@ -5,6 +5,7 @@
 }
 
 html {
+    overflow-x: hidden !important;
     scroll-behavior: smooth;
     scroll-margin: 2em;
 }
@@ -14,6 +15,7 @@ a {
 }
 
 body {
+    overflow-x: hidden !important;
     background-image: linear-gradient(45deg, rgb(111, 217, 255), white);
     
 }
